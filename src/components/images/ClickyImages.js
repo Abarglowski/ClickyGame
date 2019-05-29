@@ -1,14 +1,13 @@
 import React from "react";
-import ".style.css";
+import "./style.css";
 
 function ClickyImages(props) {
+
     return(
-        <div className="card" onClick={props.handleClick}>
-            <div className="card-body">
-                <div className="img-fluid img-container">
-                    <img alt={prop.name} src={props.image} />
-                </div>
-            </div>
+        <div className="card img-fluid img-container" onClick={() => props.handleClick(props.id)}>
+            <img alt={props.name} src={props.image}/>
         </div>    
     )
 }
+
+export default ClickyImages;

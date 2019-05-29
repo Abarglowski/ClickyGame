@@ -4,17 +4,17 @@
     height: 300px;
     margin: 1rem;
     position: relative;
-    width: 300px;
+    width: 200px;
     box-shadow: 0 2px 4px #00FFFF, 0 2px 4px #00FFFF;
     text-align: left;
 }
 
 .img-container {
-    height: 15%;
+    height: 100%;
     overflow: hidden;
     text-align: center;
     background: #008B8B;
 }
 .img-container > img {
-    width: 15%
+    width: 100%
 }
